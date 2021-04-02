@@ -80,7 +80,6 @@ const MovieDetail: React.FC = () => {
         append_to_response: 'videos',
       },
     });
-    console.log(res.data);
     setMovieDetails(res.data);
   }, [id]);
 
