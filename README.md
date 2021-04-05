@@ -24,10 +24,11 @@
 </div> 
 
 <p align="center">
-  <a href="#spades-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#clubs-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#clubs-baixando-o-projeto">Baixando o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#radio_button-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#large_blue_circle-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#large_blue_circle-baixando-o-projeto">Baixando o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#black_nib-observações">Observações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-pendências-técnicas">Pendências Técnicas</a>
 </p>
 
 Esta App teve como objetivo a construção de um site de busca de filmes juntamente com detalhes de ficha técnica e sinopse.
@@ -42,10 +43,9 @@ Esta App teve como objetivo a construção de um site de busca de filmes juntame
   
 - [x] <b>Axios:</b> <i>Usado para o tratamento do consumo dos serviços da API </i>
 - [x] <b>Styled-Components:</b> <i>Como maior recurso de estilização utilizado (há presença de SASS e CSS)</i>
+- [x] <b>React Icons:</b> <i>Para utilização de pacote de ícones.</i>
 - [x] <b>React Router Dom:</b> <i>Para roteamento de páginas.</i>
 - [x] <b>Typescript:</b> <i>Como Superset para Javascript</i>
-
-
 
 ## :large_blue_circle: Baixando o Projeto
 
@@ -74,9 +74,10 @@ Algumas notas sobre características e requisitos do projetos:
 
 #### :wrench: Pendências Técnicas
 Infelizmente alguns pontos ficaram ausentes por questões internas, estarei citando para futuras correções no projeto.
-- Responsividade: Faltou configurações pertinentes
-- Tratamentos para tradução de itens puxados da API (como data, idioma, valores, etc.)
-- O layout possui algumas quebras que devem ser tratadas (na página de detalhes do filme por exemplo)
+- Responsividade: Faltou configurações pertinentes até a data de entrega (01.04.2021), mas alterações foram realizadas na _branche: fix--Responsive-Layout
+    - Adaptações do _Layout_ na _branche_ levarão em consideração telas entre 768px e 1024px. (as configurações supriram 95% dos modelos.
+- Tratamentos para tradução e conversão de alguns dados puxados da _API_ como data, idioma, valores, etc.
+
 
 
 <h3 align="center"> :checkered_flag: Made by: <a href="https://www.linkedin.com/in/gama-leal" /> Moacir Gama </a> :checkered_flag: </h3>
