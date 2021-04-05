@@ -161,7 +161,7 @@ const MovieDetail: React.FC = () => {
                 </div>
               </ContentInfoSection>
             </div>
-            <div>
+            <div id="genre-rate-info">
               {movieDetails.genres &&
                 movieDetails.genres.map((item, index) => (
                   <span id="genresSpan" key={index}>
