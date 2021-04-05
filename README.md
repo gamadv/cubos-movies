@@ -1,9 +1,10 @@
 <div align="center">
     <h1 align=center>
     <a href="https://cubos.io/">
-      <img src="readme-assets/cubos.logo.svg" /> <span>Movies<span>
+      <img src="readme-assets/cubos.logo.svg" /> 
      </a>
   </h1>
+    <h2 align=center>Movies</h2>
 </div>
 
 <div align="center">
@@ -76,7 +77,7 @@ Algumas notas sobre características e requisitos do projetos:
 Infelizmente alguns pontos ficaram ausentes por questões internas, estarei citando para futuras correções no projeto.
 - Responsividade: Faltou configurações pertinentes até a data de entrega (01.04.2021), mas alterações foram realizadas na _branche: fix--Responsive-Layout
     - Adaptações do _Layout_ na _branche_ levarão em consideração telas entre 768px e 1024px. (as configurações supriram 95% dos modelos.
-- Tratamentos para tradução e conversão de alguns dados puxados da _API_ como data, idioma, valores, etc.
+- Tratamentos para tradução e conversão de alguns dados puxados da _API_ como data, idioma e valores, além de filmes que não possuem imagens.
 
 
 
